@@ -1,0 +1,5 @@
+def addsquareN(N):
+    if N==1:
+        return 1
+    s=N*N+addsquareN(N-1)
+    return s
